@@ -8,7 +8,7 @@ export function Hero() {
 
         <div className="relative flex flex-1 flex-col gap-[21px] pt-[46px] lg:flex-[0_0_55%] lg:pt-[38px]">
           <div
-            className="pointer-events-none absolute right-[55px] -top-[24px] z-0 h-[400px] w-[500px] bg-cover bg-right-top bg-no-repeat opacity-90 lg:-top-[100px] lg:right-[217px] lg:h-[500px] lg:w-[600px]"
+            className="pointer-events-none absolute -right-8 top-0 z-0 h-[320px] w-[380px] bg-cover bg-right-top bg-no-repeat opacity-90 sm:right-[30px] sm:-top-[24px] sm:h-[400px] sm:w-[450px] lg:-top-[100px] lg:right-[217px] lg:h-[500px] lg:w-[600px]"
             style={{ backgroundImage: "url(/hero-splash.png)" }}
           />
           <AnimatedSection animation="fade-in-up" className="relative z-10">

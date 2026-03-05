@@ -41,7 +41,7 @@ export function AICoreSection() {
             </ul>
           </AnimatedSection>
         </div>
-        <AnimatedSection animation="scale-in" delay={200} className="flex flex-1 items-center justify-center lg:flex-[0_0_55%] lg:justify-end">
+        <AnimatedSection animation="scale-in" delay={200} className="-mx-6 flex flex-1 items-center justify-center md:mx-0 lg:flex-[0_0_55%] lg:justify-end">
           <Image
             src="/transcription-image.png"
             alt="Live transcription stream for AI-powered clinical documentation"
