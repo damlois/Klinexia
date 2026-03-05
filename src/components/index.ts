@@ -1,0 +1,13 @@
+export { Navbar } from "./Navbar";
+export { Hero } from "./Hero";
+export { FeaturesSection } from "./FeaturesSection";
+export { VideoSection } from "./VideoSection";
+export { AmbulatoryCareSection } from "./AmbulatoryCareSection";
+export { AICoreSection } from "./AICoreSection";
+export { EveryRoleSection } from "./EveryRoleSection";
+export { SmarterCareSection } from "./SmarterCareSection";
+export { PatientPortalSection } from "./PatientPortalSection";
+export { GetInTouchSection } from "./GetInTouchSection";
+export { Footer } from "./Footer";
+export { AnimatedSection } from "./AnimatedSection";
+export { ClearVisitsSection } from "./ClearVisitsSection";
