@@ -13,16 +13,21 @@ export function VideoSection() {
             Watch how clinics are transforming their workflows with AI-powered documentation, billing, and patient engagement.
           </p>
         </AnimatedSection>
-        <p>Video will go here</p>
-        {/* <AnimatedSection animation="scale-in">
-          <div className="grid-pattern relative flex aspect-video items-center justify-center overflow-hidden rounded-[20px] bg-[#0f172a]">
-            <button className="flex h-[150px] w-[150px] items-center justify-center rounded-full bg-white/95 shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-white">
-              <svg width="60" height="60" viewBox="0 0 24 24" fill="#06397d" className="ml-1">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </button>
+
+        {/* Centered YouTube video */}
+        <div className="flex justify-center">
+          <div className="w-[80%] aspect-video">
+            <iframe
+              className="w-full h-full rounded-xl shadow-lg"
+              src="https://www.youtube.com/embed/y5j3oDPPmAA?si=ubi1o60WUCzTwone"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
-        </AnimatedSection> */}
+        </div>
       </div>
     </section>
   );
